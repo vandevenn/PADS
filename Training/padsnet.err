@@ -1,0 +1,28 @@
+PCB Net List Errors Report - Training.sch - Thu Apr 25 09:41:19 2024
+---------------------------------------------------------------------
+Design to Library Part Consistency Check
+----------------------------------------
+No Library consistency checking errors.
+
+Single/Zero Pin Net Warnings
+----------------------------
+No single or zero pin nets.
+
+Schematic Connectivity Errors
+-----------------------------
+
+Dangling Connections without a Net Name
+
+24MHZ
+Sheet 1      X6800  Y4800 
+
+Power or Ground Symbols used with wrong Net Name
+
++12V
+Sheet 1      X2100  Y6500  - Power  Symbol used for net: +5V
+Sheet 2      X5700  Y7100  - Power  Symbol used for net: +5V
+
+Subnets with Missing Off-Page Reference
+
+24MHZ
+Sheet 1      X7300  Y4800  - Pin: U7.1
